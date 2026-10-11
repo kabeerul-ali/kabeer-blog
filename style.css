@@ -1,0 +1,311 @@
+:root {
+    --bg: rgb(217, 223, 212);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.bw:hover{
+    border: 1px solid white;
+
+}
+body{
+    background-color:var(--bg);
+    /* background-image: url(./image/bg.png);
+    background-size: cover;
+    background-repeat: repeat-y; */
+}
+@keyframes move {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+.rotate{
+    animation: move 50s linear 0s infinite normal;
+}
+
+.navbar{
+    height: 320px;
+    background-color: rgb(242, 242, 237);
+    display: flex;
+   
+    align-items: center;
+}
+.nab-logo{
+    width:82%;
+    height: 300px;
+    background-image: url('./image/logo.png');
+    background-size: cover;
+}
+.nab-right{
+    width: 16%;
+    height: 300px;
+    margin-left: 1%;
+    background-color:  rgb(217, 223, 212);
+    font-size: 50px;
+    line-height: 4.2rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(89, 136, 89);
+    text-shadow: -8px -7px 10px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nab-hero {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #c0e4eb;
+    color: #B027F5;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    border: 1px solid rgb(220, 207, 207);
+}
+.nab-hero select{
+    border: 1px solid rgb(56, 77, 56);
+    background-color: #89c7b2;
+    color: #070707;
+    padding: 0px 6px 0px 6px;
+    border-radius: 3px;
+}
+.hero1,.hero2,.hero3,.hero4,.hero5{
+    background-color: #89c7b2;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border: 2px solid #55ae90;
+border-radius: 3px;
+padding: 0px 6px 0px 6px;
+
+}
+.hero1:hover,.hero2:hover,.hero3:hover,.hero4:hover{
+    border: 2px solid white;
+}
+.temp{
+    height: 1000px;
+    width: 100%;
+    background-color: #B027F5;
+}
+.heading{
+    height: 60px;
+    width: 100%;
+    background-color:rgb(217, 223, 212) ;
+    font-size: 50px;
+    line-height: 4.2rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(136, 89, 89);
+    text-shadow: -8px -7px 10px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.universe{
+    height: 410px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--bg);
+}
+.img{
+    width:49%;
+    height: 400px;
+    background-image: url('./image/universe.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.universe-about{
+    width: 49%;
+    height: 400px;
+    font-size: 1.8rem;
+    text-shadow: -4px -3px 10px rgb(77, 61, 61);    
+}
+.mainss-img{
+    height: 500px;
+    width: 98%;
+    margin-left: 1%; background-image: 
+    url('./image/solor_system.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.ss{
+    margin-top: 40px;
+    height: 680px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--bg);
+}
+.ss-about{    
+    width: 52%;
+    height: 400px;
+    font-size: 1.8rem;
+    text-shadow: -4px -3px 10px rgb(77, 61, 61); 
+    background-color: var(--bg)
+
+}
+.ss-img{
+    width:30vw;
+    height:30vw;
+    background-image: url('./image/solar_system_round.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation-duration: 120s;
+  
+
+}
+.ssh{
+     text-shadow: -4px -3px 10px rgb(77, 61, 61); 
+     text-align: center;
+     font-style: italic;
+      font-size: 1.8rem;
+      margin: 8px;
+
+}
+.planet{
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg);
+    margin-top: 20px;
+    
+
+}
+.aboutplanet{
+    width: 55%;
+    font-size: 1.2rem;
+    text-shadow: -4px -3px 10px rgb(77, 61, 61); 
+    background-color: var(--bg);
+    padding: 8px;
+
+}
+.aboutplanet li{
+    margin-top: 7px;
+    list-style: none;
+}
+.planet-h{
+    margin-left: 150px;
+     text-shadow: -4px -3px 10px rgb(77, 61, 61); 
+    background-color: var(--bg);
+    padding: 8px;
+    font-style: italic;
+    text-decoration: wavy underline gray;
+
+}
+.planetimg{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: #55ae90;
+     background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+
+}
+.mercuryimg{
+    background-image: url(./image/planet/Mercury.png);
+    animation-duration: 50s;
+   
+}
+.venusimg{
+    background-image: url(./image/planet/Venus.png);
+    animation-duration: 50s;
+}
+.earthimg{
+    background-image: url(./image/planet/Earth.png);
+}
+.marsimg{
+    background-image: url(./image/planet/Mars.png);
+}
+.jupiterimg{
+    background-image: url(./image/planet/Jupiter.png);
+}
+.saturnimg{
+    background-image: url(./image/planet/Saturn.png);
+}
+.uranusimg{
+    background-image: url(./image/planet/Turquoise.png);
+}
+.neptuneimg{
+    background-image: url(./image/planet/Neptune.png);
+}
+
+
+.links {
+    width: 100%;
+    padding: 18px 25px;
+    background: linear-gradient(120deg, #082f49, #087e8b);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.links ul li a {
+    display: block;
+    padding: 16px 22px;
+    background: #e5f7f7;
+    color: #063b4c;
+
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+
+    border: 2px solid transparent;
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+
+.links ul li a:hover {
+    background: #0b9a9e;
+    color: white;
+    border-color: #a5f3fc;
+
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+}
+
+.links ul li a:active {
+    transform: translateY(-1px) scale(0.98);
+}

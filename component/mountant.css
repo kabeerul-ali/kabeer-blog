@@ -1,0 +1,68 @@
+
+:root {
+    --bg: rgb(217, 223, 212);
+}
+.mountant{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg);
+    
+}
+.mountant-about{
+    text-indent: 20px;
+    width: 55%;
+    height: auto;
+    font-size: 1.2rem;
+    text-shadow: -4px -3px 10px rgb(77, 61, 61);  
+}
+.mountant-about li{
+    margin-top: 7px;
+    list-style: none;
+}
+.mountantimg{
+    width: 30vw;
+    height: 25vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+    background-color: #55ae90;
+     background-size: cover;
+    background-position: center;
+}
+.mountant-h{
+     margin-left: 150px;
+     text-shadow: -4px -3px 10px rgb(77, 61, 61); 
+    background-color: var(--bg);
+    padding: 8px;
+    font-style: italic;
+    text-decoration: wavy underline gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.everestimg{
+    background-image: url(./image/mountain/everest.png);
+}
+.k2img{
+    background-image: url(./image/mountain/k2.png);
+}
+.kangchenjungaimg{
+    background-image: url(./image/mountain/Himalayan\ Peaks\ in\ Alpenglow.png);
+}
+.lhotseimg{
+    background-image: url(./image/mountain/Himalayan\ Peaks.png);
+}
+.makaluimg{
+    background-image: url(./image/mountain/Alpine\ Peaks.png);
+}
+.chooyuimg{
+    background-image: url(./image/mountain/Golden\ Himalayan\ Summit\ at\ Sunrise.png);
+}
+
+.dhaulagiriiimg{
+    background-image: url(./image/mountain/dhaulagiriiimg.png);
+}

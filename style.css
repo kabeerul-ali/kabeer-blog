@@ -11,6 +11,10 @@
     border: 1px solid white;
 
 }
+html {
+  zoom: 1;
+  scroll-behavior: smooth;
+}
 body{
     background-color:var(--bg);
     /* background-image: url(./image/bg.png);

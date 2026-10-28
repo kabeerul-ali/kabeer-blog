@@ -10,6 +10,10 @@
     background-color: var(--bg);
     
 }
+html {
+  zoom: 1;
+  scroll-behavior: smooth;
+}
 .country-about{
     text-indent: 20px;
     width: 55%;

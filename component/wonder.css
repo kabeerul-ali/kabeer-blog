@@ -11,6 +11,10 @@
     background-color: var(--bg);
     
 }
+html {
+  zoom: 1;
+  scroll-behavior: smooth;
+}
 .wonder-about{
     width: 55%;
     height: auto;

@@ -2,6 +2,10 @@
 :root {
     --bg: rgb(217, 223, 212);
 }
+html {
+  zoom: 1;
+  scroll-behavior: smooth;
+}
 .mountant{
     width: 100%;
     height: auto;
